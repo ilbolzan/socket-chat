@@ -1,0 +1,8 @@
+apply plugin: 'java'
+group = 'com.example'
+version = '0.1'
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.2.1'
+}
+
